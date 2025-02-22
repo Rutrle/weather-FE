@@ -5,8 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="weather.js" defer="true"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div>
+        <div class="div-basic">
+            <h1>Weather forecast</h1>
+            
+        </div>
+        <hr>
+        <div class="div-basic">
+            <form id="locationForm" class="form">
+                <div>
+                    <label for="location">Location: </label>
+                    <input type="text" id="location" placeholder="Prague">
+                </div>
+                <button type="submit">Get Forecast</button>
+            </form>
+        </div>
+        <hr>
+        <div class="div-basic result-container">
+            <div class="current-forecast">
+
+            </div>
+            <div class="day-forecast">
+
+            </div>
+
+        </div>
+
+    
+    </div>
     
 </body>
 </html>
