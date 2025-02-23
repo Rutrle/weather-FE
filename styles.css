@@ -1,17 +1,39 @@
-body{
+body {
     background-color: lightblue;
 }
 
-.div-basic{
+hr {
+    width:100%;
+}
+
+.div-basic {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.form{
+.form {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:column;
+    flex-direction: column;
     gap: 10px;
+}
+
+.result-container {
+    flex-direction: column;
+
+}
+#day-forecast{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px
+
+}
+
+.forecast-card{
+    border: 2px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
 }
